@@ -26,7 +26,7 @@ Installing dependencies via requirements.txt
 ```
 $ pip3 install -r requirements.txt
 ```
-Rename `config.ini.example` and to `config.ini`.
+Rename `config.ini.example` to `config.ini`.
 ```
 mv telegram_gcloner/config.ini.example telegram_gcloner/config.ini
 ```
@@ -65,7 +65,7 @@ Enter into Folder
 ```
 cd GcloneBot
 ```
-Rename `config.ini.example` and to `config.ini`.
+Rename `config.ini.example` to `config.ini`.
 ```
 mv telegram_gcloner/config.ini.example telegram_gcloner/config.ini
 ```
