@@ -73,7 +73,7 @@ Edit config.ini as required (already mentioned above)
 
 Build Docker Image
 ```
-sudo docker buiold -t GcloneBot .
+sudo docker build -t GcloneBot .
 ```
 Start and run the bot
 ```
