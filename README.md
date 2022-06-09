@@ -36,6 +36,7 @@ Revise the corresponding content to include.
 > user_ids = Your Telegram ID (multiple separated by commas, first ID is admin)
 >
 > gclone_para_override = If you don't know what this is, leave it blank.
+```
 
 If you're interested, you can adjust the permissions in `./utils/restricted.py` to respond only to users in `user_ids` by default.
 
