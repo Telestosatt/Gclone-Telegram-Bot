@@ -16,19 +16,16 @@ Download the Zip version
 or 
 Get Files via git clone.
 ```
-$ git clone https://github.com/Telestosatt/telegram_gcloner GcloneBot
+$ git clone https://github.com/Telestosatt/telegram_gcloner GcBt
 ```
 Enter into Folder
 ```
-cd GcloneBot
+cd GcBt
 ```
 Installing dependencies via requirements.txt
 ```
 $ pip3 install -r requirements.txt
 ```
-Rename `config.ini.example` to `config.ini`.
-```
-mv telegram_gcloner/config.ini.example telegram_gcloner/config.ini
 ```
 Revise the corresponding content to include.
 
@@ -59,29 +56,25 @@ Download the Zip version
 or 
 Get Files via git clone.
 ```
-$ git clone https://github.com/Telestosatt/telegram_gcloner GcloneBot
+$ git clone https://github.com/Telestosatt/telegram_gcloner GcBt
 ```
 Enter into Folder
 ```
-cd GcloneBot
-```
-Rename `config.ini.example` to `config.ini`.
-```
-mv telegram_gcloner/config.ini.example telegram_gcloner/config.ini
+cd GcBt
 ```
 Edit config.ini as required (already mentioned above)
 
 Build Docker Image
 ```
-sudo docker build -t GcloneBot .
+sudo docker build -t GcBt .
 ```
 Start and run the bot
 ```
-sudo docker run -d --name=GcloneBot GcloneBot
+sudo docker run -d --name=GcBt GcBt
 ```
 To check logs of Bot
 ```
-sudo docker logs -f GcloneBot
+sudo docker logs -f GcBt
 ```
 
 ## License
