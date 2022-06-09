@@ -33,10 +33,10 @@ nano telegram_gcloner/config.ini
 ```
 Revise the corresponding content to include.
 
-> path_to_gclone = ./gclone
-> telegram_token = telegram bot api token
-> user_ids = Your Telegram ID (multiple separated by commas, first ID is admin)
-> gclone_para_override = If you don't know what this is, leave it blank.
+path_to_gclone = ./gclone
+telegram_token = telegram bot api token
+user_ids = Your Telegram ID (multiple separated by commas, first ID is admin)
+gclone_para_override = If you don't know what this is, leave it blank.
 ```
 
 If you're interested, you can adjust the permissions in `./utils/restricted.py` to respond only to users in `user_ids` by default.
