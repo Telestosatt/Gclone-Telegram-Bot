@@ -26,12 +26,16 @@ Installing dependencies via requirements.txt
 ```
 $ pip3 install -r requirements.txt
 ```
+Edit config.ini using command mentioned below (its in `telegram_gcloner` sub-folder)
+```
+nano telegram_gcloner/config.ini
+```
 ```
 Revise the corresponding content to include.
 
-> path_to_gclone = gclone.exe(The path is optional for each distribution of Linux if it is obtained through installation, and optional for Windows if it is in PATH. 
+> path_to_gclone = ./gclone
 >
-> telegram_token = telegram bot token
+> telegram_token = telegram bot api token
 >
 > user_ids = Your Telegram ID (multiple separated by commas, first ID is admin)
 >
